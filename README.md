@@ -1,0 +1,4 @@
+pybass
+======
+
+Python BASS Library
