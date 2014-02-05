@@ -1,4 +1,3 @@
-
 import os
 from setuptools import setup
 
@@ -15,14 +14,14 @@ setup(
     author = "Wyliodrin",
     author_email = "office@wyliodrin.com",
     description = ("libbass functions"),
-    license = "BSD",
-    keywords = "example documentation tutorial",
-    url = "http://packages.python.org/an_example_pypi_project",
+    license = "Apache License 2.0",
+    keywords = "bass",
+    url = "https://github.com/Wyliodrin/pybass",
     packages=['pybass'],
     long_description=read('README'),
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: Beta",
         "Topic :: Utilities",
-        "License :: OSI Approved :: BSD License",
+        "License :: OSI Approved :: Apache License",
     ],
 )
