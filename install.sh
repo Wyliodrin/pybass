@@ -8,5 +8,7 @@ if [ $wyliodrin_board == "arduinogalileo" ]; then
 	cp lib/x86/*.so /usr/local/lib
 fi
 
+ldconfig
+
 python setup.py install
 
