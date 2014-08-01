@@ -5,6 +5,9 @@ if [ "$wyliodrin_board" == "raspberrypi" ]; then
 fi
 
 if [ "$wyliodrin_board" == "arduinogalileo" ]; then
+	mkdir /usr/local
+	mkdir /usr/local/lib
+	cp lib/x86/*.so /usr/lib
 	cp lib/x86/*.so /usr/local/lib
 fi
 
