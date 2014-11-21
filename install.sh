@@ -4,7 +4,7 @@ if [ "$wyliodrin_board" == "raspberrypi" ]; then
 	cp lib/hardfp/*.so /usr/local/lib
 fi
 
-if [ "$wyliodrin_board" == "arduinogalileo" ]; then
+if [ "$wyliodrin_board" == "arduinogalileo" ] || [ "$wyliodrin_board" == "edison" ]; then
 	mkdir /usr/local
 	mkdir /usr/local/lib
 	cp lib/x86/*.so /usr/lib
