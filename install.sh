@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$wyliodrin_board" == "raspberrypi" ]; then
+if [ "$wyliodrin_board" == "raspberrypi" ] || [ "$wyliodrin_board" == "beagleboneblack" ]; then
 	cp lib/hardfp/*.so /usr/local/lib
 fi
 
